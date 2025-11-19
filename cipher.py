@@ -19,11 +19,12 @@ def decrypt(text, shift):
 def main():
     print("=== Caesar Cipher Encryption Tool ===")
     message = input("Enter your message: ")
-    shift = int(3)
+    shift = int(3)#input("Enter shift value (1–25): ")#
 
     encrypted = encrypt(message, shift)
     decrypted = decrypt(encrypted, shift)
 
+    print("\n--- Results ---")
     print(f"Encrypted: {encrypted}")
     print(f"Decrypted Back: {decrypted}")
 
