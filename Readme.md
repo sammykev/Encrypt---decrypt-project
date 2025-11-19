@@ -33,5 +33,35 @@ Although it is not used in modern cryptography, it is extremely useful for learn
 - Basic cryptography principles  
 
 
+## ▶️ How to Run the Program
+
+1. Install Python on your computer.
+2. Open your terminal or command prompt.
+3. Navigate to the project directory:
+    Run the script:
+        Copy code
+        python cipher.py
+        Enter your message and the shift value (1–25).
+
+        🧪 Example Usage
+        Input:
+        Message:
+            Attack At Dawn!
+        
+        Output:
+            pgsql
+        Encrypted: Exxego Ex Hear!
+        Decrypted Back: Attack At Dawn!
+        🧩 How It Works
+            ord() converts characters to ASCII codes.
+
+        Characters are shifted within their alphabet ranges (A–Z or a–z).
+        26 ensures wrap-around so Z becomes A.
+        Decryption simply reverses the shift.
+
+🤝 Contributing
+This is a beginner-friendly project — feel free to fork it, improve it, and open pull requests.
+
+
 
 
